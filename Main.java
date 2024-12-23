@@ -8,6 +8,11 @@ public class Main{
         Calculator calculator = new Calculator( scanner);
         int input1 = calculator.getValue1();
         System.out.println(input1);
+        String opp = calculator.getOperator();
+        System.out.println(opp);
+        int input2 = calculator.getValue2();
+        System.out.println(input2);
+        calculator.calculateResult();
     }
 
   
